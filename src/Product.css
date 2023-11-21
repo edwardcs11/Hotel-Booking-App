@@ -1,0 +1,22 @@
+.Product {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* Mengubah align-items menjadi flex-start */
+    margin-top: 20px;
+}
+
+.Product-item {
+    text-align: center;
+}
+
+.Product-item img {
+    width: 200px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+
+/* Optional: Jika ingin membuat gambar berbaris di bawah satu sama lain (jika ada lebih dari satu baris) */
+.Product-item:last-child img {
+    margin-right: 0; /* Hapus margin kanan pada elemen terakhir agar tidak ada margin ekstra */
+}

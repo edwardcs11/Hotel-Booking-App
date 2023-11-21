@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+form {
+  display: flex;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.form-fields {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.form-data {
+  flex: 1;
+}
+
+.horizontal-label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input-label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.radio-group {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.radio-group label {
+  margin-right: 20px;
+}
+
+.error {
+  color: red;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
